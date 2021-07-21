@@ -1,6 +1,5 @@
 package com.example.demo.domain;
 
-import org.springframework.beans.factory.annotation.Autowire;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Configurable;
 
@@ -9,7 +8,7 @@ import org.springframework.beans.factory.annotation.Configurable;
  * @Date: 2021/7/20 20:48
  */
 
-@Configurable(autowire = Autowire.BY_TYPE, preConstruction = true)
+@Configurable(preConstruction = true)
 public class Account {
 
     @Autowired

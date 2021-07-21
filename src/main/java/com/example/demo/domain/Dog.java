@@ -1,12 +1,10 @@
 package com.example.demo.domain;
 
-import org.springframework.stereotype.Component;
-
 /**
  * @Author: WhaleFall541
  * @Date: 2021/7/20 20:48
  */
-@Component
+//@Component
 public class Dog {
     private int id;
     private String name;

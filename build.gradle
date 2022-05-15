@@ -24,6 +24,8 @@ dependencies {
 	implementation group: 'org.springframework', name: 'spring-aspects', version: '5.3.8'
 	//implementation group: 'org.springframework', name: 'spring-instrument', version: '5.3.8'
 
+// https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-jersey
+	implementation group: 'org.springframework.boot', name: 'spring-boot-starter-jersey', version: '2.6.7'
 
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
